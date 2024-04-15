@@ -1,0 +1,21 @@
+body {
+    display: flex;
+}
+
+main {
+    margin: auto;
+}
+
+.image {
+    max-width: 50px;
+    height: 50px;
+    margin: 0px 7px;
+}
+
+.card-body {
+    margin: auto;
+}
+
+.card-img-top {
+    border-radius: 50%;
+}
