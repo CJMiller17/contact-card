@@ -1,5 +1,8 @@
 body {
     display: flex;
+    height: 100vh;
+    background-image: linear-gradient(#3B3B3B, green, #D6CCA2);
+    background-repeat: no-repeat;
 }
 
 main {
@@ -12,10 +15,25 @@ main {
     margin: 0px 7px;
 }
 
+.image:hover {
+    background-color: #D6CCA2;
+}
+
+.resize {
+    padding: 20px;
+}
+
 .card-body {
     margin: auto;
+    background-color: rgba(112, 130, 56, .8);
+    border-radius: 20px;
 }
 
 .card-img-top {
     border-radius: 50%;
+}
+
+.card {
+    border-radius: 20px;
+    background-color: #9dc183;
 }
